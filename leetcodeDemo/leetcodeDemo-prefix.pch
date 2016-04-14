@@ -1,0 +1,62 @@
+//
+//  CloudaHLN-prefix.pch
+//  CloudaHLN
+//
+//  Created by heiline on 15/4/2.
+//  Copyright (c) 2015年 baidu. All rights reserved.
+//
+
+#ifndef CloudaHLN_CloudaHLN_prefix_pch
+#define CloudaHLN_CloudaHLN_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#import "HLNMacro.h"
+
+#define kPushToChatDetailViewController @"kPushUserChatView"
+
+#define kChangeAppListNotification @"k_notification_change_app_list"
+
+#ifdef DEBUG
+#    define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#    define NSLog(...) {}
+#endif
+
+#if DEBUG
+#define BDLogInSelector(format, args...) \
+{\
+NSLog(@"%@===>%@", self, NSStringFromSelector(_cmd));\
+printf("im4business log========>");\
+NSLog(format, ##args);\
+}
+#else
+#define BDLogInSelector(format, args...) {}
+#endif
+
+
+#if DEBUG
+#define BDLog(format, args...) \
+{\
+printf("im4business log========>");\
+NSLog(format, ##args);\
+}
+#else
+#define BDLog(format, args...) {}
+#endif
+
+#import "NSObject+HLNUtils.h"
+#import "NSString+HLNUtils.h"
+#import "UIView+HLNUtils.h"
+#import "UIImage+HLNUtils.h"
+#import "NSArray+HLNUtils.h"
+#import "NSError+HLNUtils.h"
+
+#endif
+
+#endif

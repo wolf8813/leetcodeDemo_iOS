@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BCDFD13DD875336E79A429132BE54BEAA6338DF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "06EB97D9BB7E4550D7AF2A6FDB018D2D9F875D0B" : 0,
+    "BCDFD13DD875336E79A429132BE54BEAA6338DF0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B17E7332-FD0F-49F4-A41A-4CFE850556FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "06EB97D9BB7E4550D7AF2A6FDB018D2D9F875D0B" : "crm-ios%202\/",
+    "BCDFD13DD875336E79A429132BE54BEAA6338DF0" : "leetcodeDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "leetcodeDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "leetcodeDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gerrit.baidu.com:8235\/mc\/crm\/crm-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06EB97D9BB7E4550D7AF2A6FDB018D2D9F875D0B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wolf8813\/leetcodeDemo_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCDFD13DD875336E79A429132BE54BEAA6338DF0"
+    }
+  ]
+}

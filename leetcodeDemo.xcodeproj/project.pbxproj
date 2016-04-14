@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B94A60231CBF51B700854C74 /* HLNDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94A60221CBF51B700854C74 /* HLNDate.m */; settings = {ASSET_TAGS = (); }; };
+		B94A60251CBF533B00854C74 /* HLNUIKitMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = B94A60241CBF533B00854C74 /* HLNUIKitMacro.m */; settings = {ASSET_TAGS = (); }; };
+		B94A60291CBF55FA00854C74 /* UIColor+HLNUtiles.m in Sources */ = {isa = PBXBuildFile; fileRef = B94A60281CBF55FA00854C74 /* UIColor+HLNUtiles.m */; settings = {ASSET_TAGS = (); }; };
 		B9C3B3581CBE291D00C8AF18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3571CBE291D00C8AF18 /* main.m */; };
 		B9C3B35B1CBE291D00C8AF18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B35A1CBE291D00C8AF18 /* AppDelegate.m */; };
 		B9C3B35E1CBE291D00C8AF18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B35D1CBE291D00C8AF18 /* ViewController.m */; };
 		B9C3B3631CBE291D00C8AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C3B3621CBE291D00C8AF18 /* Assets.xcassets */; };
 		B9C3B3711CBE291D00C8AF18 /* leetcodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3701CBE291D00C8AF18 /* leetcodeDemoTests.m */; };
 		B9C3B37C1CBE291D00C8AF18 /* leetcodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B37B1CBE291D00C8AF18 /* leetcodeDemoUITests.m */; };
+		B9C3B3F51CBF497000C8AF18 /* HLNBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3CB1CBF497000C8AF18 /* HLNBaseModel.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3F61CBF497000C8AF18 /* HLNBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3CE1CBF497000C8AF18 /* HLNBaseNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3F71CBF497000C8AF18 /* HLNBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3D11CBF497000C8AF18 /* HLNBaseTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3F81CBF497000C8AF18 /* HLNBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3D41CBF497000C8AF18 /* HLNBaseCell.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3F91CBF497000C8AF18 /* HLNBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3D71CBF497000C8AF18 /* HLNBaseTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3FB1CBF497000C8AF18 /* HLNBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3DC1CBF497000C8AF18 /* HLNBaseView.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3FC1CBF497000C8AF18 /* HLNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3DF1CBF497000C8AF18 /* HLNBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3FE1CBF497000C8AF18 /* NSArray+HLNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3E51CBF497000C8AF18 /* NSArray+HLNUtils.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B3FF1CBF497000C8AF18 /* NSError+HLNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3E81CBF497000C8AF18 /* NSError+HLNUtils.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B4001CBF497000C8AF18 /* NSObject+HLNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3EB1CBF497000C8AF18 /* NSObject+HLNUtils.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B4011CBF497000C8AF18 /* NSString+HLNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3EE1CBF497000C8AF18 /* NSString+HLNUtils.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B4021CBF497000C8AF18 /* UIImage+HLNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3F11CBF497000C8AF18 /* UIImage+HLNUtils.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B4031CBF497000C8AF18 /* UIView+HLNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B3F41CBF497000C8AF18 /* UIView+HLNUtils.m */; settings = {ASSET_TAGS = (); }; };
+		B9C3B40D1CBF4DC000C8AF18 /* HLNURLMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B40B1CBF4DC000C8AF18 /* HLNURLMacro.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B94A60211CBF51B700854C74 /* HLNDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNDate.h; sourceTree = "<group>"; };
+		B94A60221CBF51B700854C74 /* HLNDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNDate.m; sourceTree = "<group>"; };
+		B94A60241CBF533B00854C74 /* HLNUIKitMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNUIKitMacro.m; sourceTree = "<group>"; };
+		B94A60271CBF55FA00854C74 /* UIColor+HLNUtiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLNUtiles.h"; sourceTree = "<group>"; };
+		B94A60281CBF55FA00854C74 /* UIColor+HLNUtiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLNUtiles.m"; sourceTree = "<group>"; };
 		B9C3B3531CBE291C00C8AF18 /* leetcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C3B3571CBE291D00C8AF18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9C3B3591CBE291D00C8AF18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +69,39 @@
 		B9C3B3771CBE291D00C8AF18 /* leetcodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C3B37B1CBE291D00C8AF18 /* leetcodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leetcodeDemoUITests.m; sourceTree = "<group>"; };
 		B9C3B37D1CBE291D00C8AF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C3B3CA1CBF497000C8AF18 /* HLNBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseModel.h; sourceTree = "<group>"; };
+		B9C3B3CB1CBF497000C8AF18 /* HLNBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseModel.m; sourceTree = "<group>"; };
+		B9C3B3CD1CBF497000C8AF18 /* HLNBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseNavigationController.h; sourceTree = "<group>"; };
+		B9C3B3CE1CBF497000C8AF18 /* HLNBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseNavigationController.m; sourceTree = "<group>"; };
+		B9C3B3D01CBF497000C8AF18 /* HLNBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseTabBarController.h; sourceTree = "<group>"; };
+		B9C3B3D11CBF497000C8AF18 /* HLNBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseTabBarController.m; sourceTree = "<group>"; };
+		B9C3B3D31CBF497000C8AF18 /* HLNBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseCell.h; sourceTree = "<group>"; };
+		B9C3B3D41CBF497000C8AF18 /* HLNBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseCell.m; sourceTree = "<group>"; };
+		B9C3B3D61CBF497000C8AF18 /* HLNBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseTableViewController.h; sourceTree = "<group>"; };
+		B9C3B3D71CBF497000C8AF18 /* HLNBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseTableViewController.m; sourceTree = "<group>"; };
+		B9C3B3DB1CBF497000C8AF18 /* HLNBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseView.h; sourceTree = "<group>"; };
+		B9C3B3DC1CBF497000C8AF18 /* HLNBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseView.m; sourceTree = "<group>"; };
+		B9C3B3DE1CBF497000C8AF18 /* HLNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNBaseViewController.h; sourceTree = "<group>"; };
+		B9C3B3DF1CBF497000C8AF18 /* HLNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNBaseViewController.m; sourceTree = "<group>"; };
+		B9C3B3E41CBF497000C8AF18 /* NSArray+HLNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HLNUtils.h"; sourceTree = "<group>"; };
+		B9C3B3E51CBF497000C8AF18 /* NSArray+HLNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HLNUtils.m"; sourceTree = "<group>"; };
+		B9C3B3E71CBF497000C8AF18 /* NSError+HLNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HLNUtils.h"; sourceTree = "<group>"; };
+		B9C3B3E81CBF497000C8AF18 /* NSError+HLNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HLNUtils.m"; sourceTree = "<group>"; };
+		B9C3B3EA1CBF497000C8AF18 /* NSObject+HLNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLNUtils.h"; sourceTree = "<group>"; };
+		B9C3B3EB1CBF497000C8AF18 /* NSObject+HLNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLNUtils.m"; sourceTree = "<group>"; };
+		B9C3B3ED1CBF497000C8AF18 /* NSString+HLNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HLNUtils.h"; sourceTree = "<group>"; };
+		B9C3B3EE1CBF497000C8AF18 /* NSString+HLNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HLNUtils.m"; sourceTree = "<group>"; };
+		B9C3B3F01CBF497000C8AF18 /* UIImage+HLNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLNUtils.h"; sourceTree = "<group>"; };
+		B9C3B3F11CBF497000C8AF18 /* UIImage+HLNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLNUtils.m"; sourceTree = "<group>"; };
+		B9C3B3F31CBF497000C8AF18 /* UIView+HLNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLNUtils.h"; sourceTree = "<group>"; };
+		B9C3B3F41CBF497000C8AF18 /* UIView+HLNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLNUtils.m"; sourceTree = "<group>"; };
+		B9C3B4051CBF4DC000C8AF18 /* HLNFoundationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNFoundationMacro.h; sourceTree = "<group>"; };
+		B9C3B4061CBF4DC000C8AF18 /* HLNMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNMacro.h; sourceTree = "<group>"; };
+		B9C3B4071CBF4DC000C8AF18 /* HLNNetworkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNNetworkDefine.h; sourceTree = "<group>"; };
+		B9C3B4081CBF4DC000C8AF18 /* HLNUIKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNUIKitMacro.h; sourceTree = "<group>"; };
+		B9C3B40A1CBF4DC000C8AF18 /* HLNURLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNURLMacro.h; sourceTree = "<group>"; };
+		B9C3B40B1CBF4DC000C8AF18 /* HLNURLMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNURLMacro.m; sourceTree = "<group>"; };
+		B9C3B40E1CBF4E0C00C8AF18 /* leetcodeDemo-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "leetcodeDemo-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +129,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B94A60201CBF51B700854C74 /* HLNDate */ = {
+			isa = PBXGroup;
+			children = (
+				B94A60211CBF51B700854C74 /* HLNDate.h */,
+				B94A60221CBF51B700854C74 /* HLNDate.m */,
+			);
+			name = HLNDate;
+			path = KSDate;
+			sourceTree = "<group>";
+		};
+		B94A60261CBF55EB00854C74 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				B94A60271CBF55FA00854C74 /* UIColor+HLNUtiles.h */,
+				B94A60281CBF55FA00854C74 /* UIColor+HLNUtiles.m */,
+			);
+			name = UIColor;
+			path = leetcodeDemo/Categories/UIColor;
+			sourceTree = SOURCE_ROOT;
+		};
 		B9C3B34A1CBE291C00C8AF18 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +178,10 @@
 				B9C3B35D1CBE291D00C8AF18 /* ViewController.m */,
 				B9C3B3621CBE291D00C8AF18 /* Assets.xcassets */,
 				B9C3B3671CBE291D00C8AF18 /* Info.plist */,
+				B9C3B40E1CBF4E0C00C8AF18 /* leetcodeDemo-prefix.pch */,
+				B9C3B4041CBF4DC000C8AF18 /* Macro */,
+				B9C3B3C81CBF497000C8AF18 /* BaseClasses */,
+				B9C3B3E21CBF497000C8AF18 /* Categories */,
 				B9C3B3561CBE291D00C8AF18 /* Supporting Files */,
 			);
 			path = leetcodeDemo;
@@ -133,6 +212,167 @@
 			);
 			path = leetcodeDemoUITests;
 			sourceTree = "<group>";
+		};
+		B9C3B3C81CBF497000C8AF18 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3C91CBF497000C8AF18 /* HLNBaseModel */,
+				B9C3B3CC1CBF497000C8AF18 /* HLNBaseNavigationController */,
+				B9C3B3CF1CBF497000C8AF18 /* HLNBaseTabBarController */,
+				B9C3B3D21CBF497000C8AF18 /* HLNBaseTableViewCell */,
+				B9C3B3D51CBF497000C8AF18 /* HLNBaseTableViewController */,
+				B9C3B3DA1CBF497000C8AF18 /* HLNBaseView */,
+				B9C3B3DD1CBF497000C8AF18 /* HLNBaseViewController */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		B9C3B3C91CBF497000C8AF18 /* HLNBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3CA1CBF497000C8AF18 /* HLNBaseModel.h */,
+				B9C3B3CB1CBF497000C8AF18 /* HLNBaseModel.m */,
+			);
+			path = HLNBaseModel;
+			sourceTree = "<group>";
+		};
+		B9C3B3CC1CBF497000C8AF18 /* HLNBaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3CD1CBF497000C8AF18 /* HLNBaseNavigationController.h */,
+				B9C3B3CE1CBF497000C8AF18 /* HLNBaseNavigationController.m */,
+			);
+			path = HLNBaseNavigationController;
+			sourceTree = "<group>";
+		};
+		B9C3B3CF1CBF497000C8AF18 /* HLNBaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3D01CBF497000C8AF18 /* HLNBaseTabBarController.h */,
+				B9C3B3D11CBF497000C8AF18 /* HLNBaseTabBarController.m */,
+			);
+			path = HLNBaseTabBarController;
+			sourceTree = "<group>";
+		};
+		B9C3B3D21CBF497000C8AF18 /* HLNBaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3D31CBF497000C8AF18 /* HLNBaseCell.h */,
+				B9C3B3D41CBF497000C8AF18 /* HLNBaseCell.m */,
+			);
+			path = HLNBaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		B9C3B3D51CBF497000C8AF18 /* HLNBaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3D61CBF497000C8AF18 /* HLNBaseTableViewController.h */,
+				B9C3B3D71CBF497000C8AF18 /* HLNBaseTableViewController.m */,
+			);
+			path = HLNBaseTableViewController;
+			sourceTree = "<group>";
+		};
+		B9C3B3DA1CBF497000C8AF18 /* HLNBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3DB1CBF497000C8AF18 /* HLNBaseView.h */,
+				B9C3B3DC1CBF497000C8AF18 /* HLNBaseView.m */,
+			);
+			path = HLNBaseView;
+			sourceTree = "<group>";
+		};
+		B9C3B3DD1CBF497000C8AF18 /* HLNBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3DE1CBF497000C8AF18 /* HLNBaseViewController.h */,
+				B9C3B3DF1CBF497000C8AF18 /* HLNBaseViewController.m */,
+			);
+			path = HLNBaseViewController;
+			sourceTree = "<group>";
+		};
+		B9C3B3E21CBF497000C8AF18 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B94A60201CBF51B700854C74 /* HLNDate */,
+				B9C3B3E31CBF497000C8AF18 /* NSArray */,
+				B9C3B3E61CBF497000C8AF18 /* NSError */,
+				B9C3B3E91CBF497000C8AF18 /* NSObject */,
+				B9C3B3EC1CBF497000C8AF18 /* NSString */,
+				B9C3B3EF1CBF497000C8AF18 /* UIImage */,
+				B94A60261CBF55EB00854C74 /* UIColor */,
+				B9C3B3F21CBF497000C8AF18 /* UIView */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B9C3B3E31CBF497000C8AF18 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3E41CBF497000C8AF18 /* NSArray+HLNUtils.h */,
+				B9C3B3E51CBF497000C8AF18 /* NSArray+HLNUtils.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		B9C3B3E61CBF497000C8AF18 /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3E71CBF497000C8AF18 /* NSError+HLNUtils.h */,
+				B9C3B3E81CBF497000C8AF18 /* NSError+HLNUtils.m */,
+			);
+			path = NSError;
+			sourceTree = "<group>";
+		};
+		B9C3B3E91CBF497000C8AF18 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3EA1CBF497000C8AF18 /* NSObject+HLNUtils.h */,
+				B9C3B3EB1CBF497000C8AF18 /* NSObject+HLNUtils.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		B9C3B3EC1CBF497000C8AF18 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3ED1CBF497000C8AF18 /* NSString+HLNUtils.h */,
+				B9C3B3EE1CBF497000C8AF18 /* NSString+HLNUtils.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		B9C3B3EF1CBF497000C8AF18 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3F01CBF497000C8AF18 /* UIImage+HLNUtils.h */,
+				B9C3B3F11CBF497000C8AF18 /* UIImage+HLNUtils.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		B9C3B3F21CBF497000C8AF18 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B3F31CBF497000C8AF18 /* UIView+HLNUtils.h */,
+				B9C3B3F41CBF497000C8AF18 /* UIView+HLNUtils.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B9C3B4041CBF4DC000C8AF18 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3B4051CBF4DC000C8AF18 /* HLNFoundationMacro.h */,
+				B9C3B4061CBF4DC000C8AF18 /* HLNMacro.h */,
+				B9C3B4071CBF4DC000C8AF18 /* HLNNetworkDefine.h */,
+				B9C3B4081CBF4DC000C8AF18 /* HLNUIKitMacro.h */,
+				B94A60241CBF533B00854C74 /* HLNUIKitMacro.m */,
+				B9C3B40A1CBF4DC000C8AF18 /* HLNURLMacro.h */,
+				B9C3B40B1CBF4DC000C8AF18 /* HLNURLMacro.m */,
+			);
+			name = Macro;
+			path = leetcodeDemo/Macro;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -263,8 +503,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C3B35E1CBE291D00C8AF18 /* ViewController.m in Sources */,
+				B9C3B4031CBF497000C8AF18 /* UIView+HLNUtils.m in Sources */,
 				B9C3B35B1CBE291D00C8AF18 /* AppDelegate.m in Sources */,
+				B9C3B3FB1CBF497000C8AF18 /* HLNBaseView.m in Sources */,
+				B9C3B4011CBF497000C8AF18 /* NSString+HLNUtils.m in Sources */,
+				B9C3B4001CBF497000C8AF18 /* NSObject+HLNUtils.m in Sources */,
+				B9C3B3FE1CBF497000C8AF18 /* NSArray+HLNUtils.m in Sources */,
+				B94A60251CBF533B00854C74 /* HLNUIKitMacro.m in Sources */,
 				B9C3B3581CBE291D00C8AF18 /* main.m in Sources */,
+				B9C3B3F91CBF497000C8AF18 /* HLNBaseTableViewController.m in Sources */,
+				B9C3B3F71CBF497000C8AF18 /* HLNBaseTabBarController.m in Sources */,
+				B9C3B3FF1CBF497000C8AF18 /* NSError+HLNUtils.m in Sources */,
+				B9C3B3F61CBF497000C8AF18 /* HLNBaseNavigationController.m in Sources */,
+				B9C3B3F81CBF497000C8AF18 /* HLNBaseCell.m in Sources */,
+				B94A60291CBF55FA00854C74 /* UIColor+HLNUtiles.m in Sources */,
+				B9C3B3FC1CBF497000C8AF18 /* HLNBaseViewController.m in Sources */,
+				B9C3B4021CBF497000C8AF18 /* UIImage+HLNUtils.m in Sources */,
+				B9C3B3F51CBF497000C8AF18 /* HLNBaseModel.m in Sources */,
+				B9C3B40D1CBF4DC000C8AF18 /* HLNURLMacro.m in Sources */,
+				B94A60231CBF51B700854C74 /* HLNDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +643,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/leetcodeDemo/leetcodeDemo-prefix.pch";
 				INFOPLIST_FILE = leetcodeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.leetcodeDemo;
@@ -397,6 +656,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/leetcodeDemo/leetcodeDemo-prefix.pch";
 				INFOPLIST_FILE = leetcodeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.leetcodeDemo;
@@ -471,6 +732,7 @@
 				B9C3B3821CBE291D00C8AF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9C3B3831CBE291D00C8AF18 /* Build configuration list for PBXNativeTarget "leetcodeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +741,7 @@
 				B9C3B3851CBE291D00C8AF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9C3B3861CBE291D00C8AF18 /* Build configuration list for PBXNativeTarget "leetcodeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +750,7 @@
 				B9C3B3881CBE291D00C8AF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

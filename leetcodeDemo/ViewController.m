@@ -10,13 +10,19 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) UITableViewController *tableViewController;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setupUI];
+}
+
+- (void)setupUI {
+    
 }
 
 - (void)didReceiveMemoryWarning {
